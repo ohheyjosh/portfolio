@@ -6,7 +6,7 @@ import "./layout.css"
 
 const Layout = () => {
   return (
-    <div className="relative bg-white overflow-hidden">
+    <div className="relative overflow-hidden">
       <Main />
       <Footer />
     </div>

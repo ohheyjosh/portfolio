@@ -1,9 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `Josh Barnett`,
-    description: `Using modern web tech to make everyday things for everyday humans.
-    Dad. Husband. Knower of like 4 yoga poses.`,
-    author: `@heyjo_sh`,
+    author: `Josh Barnett`,
+    description: `Hi 👋 I'm Josh. I'm using modern web tech to make everyday things for everyday humans.`,
+    image: `/images/josh.jpg`,
+    twitterUsername: `@heyjo_sh`,
+    url: `https://heyjo.sh`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
