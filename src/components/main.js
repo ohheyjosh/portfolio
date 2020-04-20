@@ -18,7 +18,7 @@ const Main = () => (
         </h2>
       </div>
     </div>
-    <div className="text-gray-400 mt-4 mb-24">
+    <div className="text-gray-500 mt-4 mb-24">
       <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
           {/* HTML */}
