@@ -3,7 +3,7 @@
   "private": true,
   "description": "All the bits that go into https://heyjo.sh/",
   "author": "Josh Barnett <oh@heyjo.sh>",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "GLWT",
   "scripts": {
     "build": "gatsby build",
