@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "description": "All the bits that go into https://heyjo.sh/",
-  "author": "Josh <oh@heyjo.sh>",
+  "author": "Josh Barnett <oh@heyjo.sh>",
   "version": "1.0.0",
   "license": "GLWT",
   "scripts": {
@@ -11,8 +11,7 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "clean": "gatsby clean"
   },
   "dependencies": {
     "@tailwindcss/ui": "^0.1.3",
