@@ -4,7 +4,7 @@ module.exports = {
     author: `Josh Barnett`,
     description: `Hi 👋 I'm Josh. I'm using modern web tech to make everyday things for everyday humans.`,
     image: `/images/josh.jpg`,
-    twitterUsername: `@heyjo_sh`,
+    twitterUsername: `@oh_hey_josh`,
     url: `https://heyjo.sh`
   },
   plugins: [
