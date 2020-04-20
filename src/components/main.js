@@ -1,6 +1,6 @@
 import PropTypes from "prop-types"
 import React from "react"
-import josh from "../images/josh.png"
+import josh from "../images/josh.jpg"
 
 const Main = () => (
   <main className="max-w-screen-xl mx-auto py-4 px-4 overflow-hidden sm:px-6 lg:px-8">
