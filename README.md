@@ -14,14 +14,9 @@ Runs on [Gatsby](https://github.com/gatsbyjs/gatsby) and styled with [Tailwind](
 
 ## 🧐 Key files/folders
 
-1.  **`/src/components`**: React components for the different chunks of the site, such as the layout, main section, and footer.
-
-2. **`/src/images`**: Static assets like the icon and my portrait.
-
-3.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
-
-4.  **`LICENSE`**: This particular website is for my personal use, so the reuse of its code isn't supported. [GLWTPL](https://github.com/me-shaon/GLWTPL).
-
-5.  **`package.json`**: Includes startup commands, metadata (such as my name, email, site URL), etc.
-
-6.  **`README.md`**: What you're reading right now.
+* **`/src/components`**: React components for the different chunks of the site, such as the layout, main section, and footer.
+* **`/src/images`**: Static assets like the icon and my portrait.
+*  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+*  **`LICENSE`**: This particular website is for my personal use, so the reuse of its code isn't supported. [GLWTPL](https://github.com/me-shaon/GLWTPL).
+*  **`package.json`**: Includes startup commands, metadata (such as my name, email, site URL), etc.
+*  **`README.md`**: What you're reading right now.
