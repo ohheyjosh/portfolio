@@ -5,7 +5,7 @@ import josh from "../images/josh.jpg"
 const Main = () => (
   <main className="max-w-screen-xl mx-auto py-4 px-4 overflow-hidden sm:px-6 lg:px-8">
     <div className="mx-auto my-16 px-8 md:mb-32">
-      <div className="lg:float-left">
+      <div className="flex justify-center lg:float-left">
         <img src={josh} alt="Josh Barnett" className="w-64 h-64 rounded-full border-solid border-8 border-white shadow-lg" />
       </div>
       <div className="sm:text-center lg:text-right">
