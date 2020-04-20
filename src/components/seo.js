@@ -38,7 +38,7 @@ function SEO({ description, lang, meta, title }) {
         {
           rel: `icon`,
           type: `image/png`,
-          href: `icon.png`
+          href: `images/icon.png`
         }
       ]}
       meta={[
