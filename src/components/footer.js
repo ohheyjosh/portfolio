@@ -8,7 +8,7 @@ const Footer = () => (
     </h3>
     <div className="sm:flex sm:justify-center lg:justify-center">
       <div className="mb-16 rounded-md hover:shadow-lg transform hover:-translate-y-1 ease-in-out duration-300">
-        <a href="mailto:oh@heyjo.sh" className="w-full flex items-center justify-center px-24 py-6 border border-transparent text-2xl font-bold rounded-lg text-orange-500 bg-white hover:text-white hover:bg-orange-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-300">
+        <a href="mailto:oh@heyjo.sh" className="w-full flex items-center justify-center px-24 py-6 border border-transparent text-2xl font-bold rounded-lg text-orange-500 bg-none hover:text-white hover:bg-orange-500 focus:outline-none focus:shadow-outline transition ease-in-out duration-300">
           <span className="w-auto border-b-4 border-orange-500 p-1">
             oh@heyjo.sh
           </span>
