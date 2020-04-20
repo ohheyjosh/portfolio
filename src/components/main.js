@@ -10,7 +10,7 @@ const Main = () => (
       </div>
       <div className="sm:text-center lg:text-right">
         <h1 className="text-4xl tracking-tight leading-10 font-bold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl md:pt-12">
-          Hi <span role="img" aria-label="(wave)">👋</span>
+          Hi <span role="img" aria-label="(wave)">👋</span>&nbsp;
           I'm <span className="text-orange-500">Josh</span>.
         </h1>
         <h2 className="text-3xl leading-9 font-bold text-gray-900 sm:text-4xl sm:leading-10">
