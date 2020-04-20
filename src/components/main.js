@@ -10,7 +10,8 @@ const Main = () => (
       </div>
       <div className="sm:text-center lg:text-right">
         <h1 className="text-4xl tracking-tight leading-10 font-bold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl md:pt-12">
-          Hi 👋 I'm <span className="text-orange-500">Josh</span>.
+          Hi <span role="img" aria-label="(wave)">👋</span>
+          I'm <span className="text-orange-500">Josh</span>.
         </h1>
         <h2 className="text-3xl leading-9 font-bold text-gray-900 sm:text-4xl sm:leading-10">
           I'm using modern web tech to make everyday things for everyday humans.
@@ -45,7 +46,7 @@ const Main = () => (
             </svg>
           </div>
           {/* Sketch */}
-          <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1 hover:text-yellow-500 transition ease-in-out duration-150">
+          <div className="col-span-2 flex justify-center lg:col-span-1 hover:text-yellow-500 transition ease-in-out duration-150">
             <svg className="h-16 h-16" fill="currentColor" viewBox="0 0 24 24">
               <path d="M12 1.25l6.75 6.637V2L12 1.25zm0 0l-6.05 7h12.1l-6.05-7zm0 0L5.25 2v5.887L12 1.25zM5.25 2L0 9l4.416-.68L5.25 2zM0 9l11.959 13.703.008-.014L4.443 9H0zm18.75-7l.834 6.32L24 9l-5.25-7zM24 9h-4.506l-7.523 13.69.029.06L24 9zM12 22.75l-.031-.057-.008.012.039.045zM5.436 9l6.533 13.686L18.564 9H5.436Z"></path>
             </svg>
