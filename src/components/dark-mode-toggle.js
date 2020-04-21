@@ -6,7 +6,7 @@ import "./toggle.css"
 const DarkModeToggle = () => (
   <ThemeToggler>
     {({ theme, toggleTheme }) => (
-      <div className="toggle-switch float-right m-6">
+      <div className="toggle-switch absolute top-6 right-6">
         <label
           className="bg-gray-800 relative inline-block flex-shrink-0 h-7 w-16 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none overflow-hidden"
         >
