@@ -1,0 +1,27 @@
+.toggle-switch input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.dark .toggle-switch label {
+  background-color: #ff5a1f;
+}
+
+.toggle-switch span:before {
+  color: #f6e05e;
+  content: "☀";
+  display: flex;
+  font-size: 1.5rem;
+  transform: translateX(2.1rem) translateY(0.05rem);
+}
+
+.dark .toggle-switch span {
+  transform: translateX(2.2rem);
+}
+
+.dark .toggle-switch span:before {
+  color: #faf089;
+  content: "☾";
+  transform: translateX(-1.9rem) translateY(0.05rem);
+}
