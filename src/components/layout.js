@@ -12,7 +12,6 @@ const Layout = () => {
         {({ theme, toggleTheme }) => (
           <label>
             <input
-              role="checkbox"
               type="checkbox"
               onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
               checked={theme === 'dark'}
