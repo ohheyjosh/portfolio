@@ -614,6 +614,33 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+/* Dark mode */
+body,
+h1,
+h2,
+p {
+  transition: color 250ms ease-out,
+              background 250ms ease-out;
+}
+svg {
+  transition: fill 250ms ease-out;
+}
+body.dark {
+  background-color: #374151;
+}
+body.dark,
+body.dark h1,
+body.dark h2,
+body.dark p,
+body.dark div {
+  color: #f9fafb;
+}
+body.dark svg {
+  fill: #9fa6b2;
+}
+body.dark svg:hover {
+  fill: currentColor;
+}
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
