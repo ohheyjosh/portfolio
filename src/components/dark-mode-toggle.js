@@ -8,7 +8,7 @@ const DarkModeToggle = () => (
     {({ theme, toggleTheme }) => (
       <div className="toggle-switch absolute top-6 right-6">
         <label
-          className="bg-gray-800 relative inline-block flex-shrink-0 h-7 w-16 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none overflow-hidden"
+          className="bg-gray-800 relative inline-block flex-shrink-0 h-12 w-24 lg:h-8 lg:w-16 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none overflow-hidden"
         >
           <input
             id="darkModeToggle"
@@ -20,7 +20,7 @@ const DarkModeToggle = () => (
           />
           <span
             aria-hidden="true"
-            className="translate-x-0 inline-block h-6 w-6 rounded-full bg-white shadow transform transition ease-in-out duration-200"
+            className="translate-x-0 inline-block h-10 w-10 lg:h-6 lg:w-6 rounded-full bg-white shadow transform transition ease-in-out duration-200"
           />
         </label>
       </div>

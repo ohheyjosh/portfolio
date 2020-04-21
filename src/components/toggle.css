@@ -8,20 +8,43 @@
   background-color: #ff5a1f;
 }
 
+.toggle-switch span {
+  margin: 0.1rem;
+}
+
 .toggle-switch span:before {
   color: #f6e05e;
   content: "☀";
   display: flex;
-  font-size: 1.5rem;
-  transform: translateX(2.1rem) translateY(0.05rem);
+  font-size: 2rem;
+  transform: translateX(3.2rem) translateY(0.5rem);
 }
 
 .dark .toggle-switch span {
-  transform: translateX(2.2rem);
+  transform: translateX(3rem);
 }
 
 .dark .toggle-switch span:before {
   color: #faf089;
   content: "☾";
-  transform: translateX(-1.9rem) translateY(0.05rem);
+  transform: translateX(-2.75rem) translateY(0.5rem);
+}
+
+@media (min-width: 1024px) {
+  .toggle-switch span {
+    margin: 0.14rem;
+  }
+
+  .toggle-switch span:before {
+    font-size: 1.5rem;
+    transform: translateX(1.9rem) translateY(0.08rem);
+  }
+
+  .dark .toggle-switch span {
+    transform: translateX(2rem);
+  }
+
+  .dark .toggle-switch span:before {
+    transform: translateX(-1.9rem) translateY(0.08rem);
+  }
 }
