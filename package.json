@@ -6,7 +6,7 @@
   "version": "1.1.0",
   "license": "GLWT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@tailwindcss/ui": "^0.1.3",
-    "gatsby": "^2.20.12",
+    "gatsby": "^2.20.31",
     "gatsby-image": "^2.3.1",
     "gatsby-plugin-dark-mode": "^1.1.1",
     "gatsby-plugin-google-fonts": "^1.0.1",
