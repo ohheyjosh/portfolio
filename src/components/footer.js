@@ -37,7 +37,11 @@ const Footer = () => (
     </div>
     <div className="mt-24">
       <p className="text-center text-sm leading-6 text-gray-500">
-        &copy; {new Date().getFullYear()} Josh Barnett. All rights reserved.
+        &copy; {new Date().getFullYear()}
+        {' '}
+        <a href="mailto:oh@heyjo.sh" className="underline hover:text-orange-500">
+          Josh Barnett
+        </a>. All rights reserved.
       </p>
     </div>
   </footer>
