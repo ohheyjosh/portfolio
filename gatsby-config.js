@@ -5,7 +5,7 @@ module.exports = {
     description: `Hi 👋 I'm Josh. I'm using modern web tech to make everyday things for everyday humans.`,
     image: `/images/josh.jpg`,
     twitterUsername: `@oh_hey_josh`,
-    url: `https://heyjo.sh`
+    url: `https://heyjo.sh`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -38,8 +38,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [`inter\:400,700`],
-        display: `swap`
-      }
+        display: `swap`,
+      },
     },
     {
       resolve: `gatsby-plugin-purgecss`,
@@ -50,8 +50,8 @@ module.exports = {
         // whitelist: ['whitelist'], // Don't remove this selector
         // ignore: ['/ignored.css', 'prismjs/', 'docsearch.js/'], // Ignore files/folders
         // purgeOnly : ['components/', '/main.css', 'bootstrap/'], // Purge only these files/folders
-      }
+      },
     },
-    'gatsby-plugin-dark-mode'
-  ]
+    "gatsby-plugin-dark-mode",
+  ],
 }
