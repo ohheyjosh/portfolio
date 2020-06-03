@@ -29,7 +29,7 @@ const CallThemForMePage = props => (
               through phone calls.
             </p>
           </div>
-          <div className="mx-auto w-full py-2 lg:w-3/5 lg:px-4">
+          <div className="mx-auto w-full py-2 lg:w-3/5">
             <Img
               fluid={props.data.ctfmLiveLander.childImageSharp.fluid}
               alt="CallThemForMe landing page"
@@ -40,7 +40,7 @@ const CallThemForMePage = props => (
           </div>
         </div>
         <div className="flex flex-col lg:flex-row items-center">
-          <div className="mx-auto w-full py-2 lg:w-1/2 lg:px-4">
+          <div className="mx-auto w-full py-2 lg:w-1/2">
             <Img
               fluid={props.data.ctfmRequestFlow.childImageSharp.fluid}
               alt="CallThemForMe request flow"
@@ -106,16 +106,39 @@ const CallThemForMePage = props => (
           </div>
         </div>
         <div className="flex flex-col lg:flex-row">
-          <div className="mx-auto w-full py-2 lg:w-1/2 lg:px-4">
+          <div className="mx-auto w-full py-2 lg:w-1/3 lg:mr-4 xl:w-1/4">
+            <h2>My roles:</h2>
+            <ul className="list-disc">
+              <li>Product designer</li>
+              <li>UI/UX designer</li>
+              <li>Full-stack developer</li>
+              <li>System administrator</li>
+            </ul>
+          </div>
+          <div className="mx-auto w-full py-2 lg:w-2/3 lg:ml-4 xl:w-1/2">
+            <h2>Tools used:</h2>
+            <ul className="list-disc">
+              <li>Auth0 (Hosted authentication solution)</li>
+              <li>GraphQL (Simple universal data querying)</li>
+              <li>Next.js, hosted by Render ("Serverless" hosting solution)</li>
+              <li>
+                PostgreSQL, hosted by Render (Connected to GraphQL via Hasura)
+              </li>
+              <li>TailwindCSS (Utility-based CSS framework)</li>
+              <li>Twilio (SMS messaging solution)</li>
+              <li>Zapier (no-code connection to Zendesk API)</li>
+            </ul>
+          </div>
+        </div>
+        <div className="flex flex-col lg:flex-row">
+          <div className="mx-auto w-full py-2 lg:w-1/2 lg:mr-4">
             <Img
               fluid={props.data.ctfmLiveRequest.childImageSharp.fluid}
               alt="CallThemForMe live request view"
             />
             <aside className="my-2 text-center">Live call request view.</aside>
           </div>
-        </div>
-        <div className="flex flex-col lg:flex-row">
-          <div className="mx-auto w-full py-2 lg:w-1/2 lg:px-4">
+          <div className="mx-auto w-full py-2 lg:w-1/2 lg:ml-4">
             <Img
               fluid={props.data.ctfmLiveNew.childImageSharp.fluid}
               alt="CallThemForMe live request form"
