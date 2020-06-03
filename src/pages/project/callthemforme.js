@@ -10,8 +10,8 @@ const CallThemForMePage = props => (
     <SEO title="CallThemForMe, by Josh Barnett" />
     <ProjectLayout>
       <article>
-        <div className="flex flex-col lg:flex-row">
-          <div className="mx-auto w-full py-2 lg:w-1/2 lg:px-4">
+        <div className="flex flex-col lg:flex-row items-center">
+          <div className="mx-auto w-full py-2 lg:w-2/5 lg:px-4">
             <h1>CallThemForMe.</h1>
             <p>
               CallThemForMe connects busy, tired, or anxious people with
@@ -29,27 +29,80 @@ const CallThemForMePage = props => (
               through phone calls.
             </p>
           </div>
-          <div className="mx-auto w-full py-2 lg:w-1/2 lg:px-4">
+          <div className="mx-auto w-full py-2 lg:w-3/5 lg:px-4">
             <Img
               fluid={props.data.ctfmLiveLander.childImageSharp.fluid}
               alt="CallThemForMe landing page"
             />
+            <aside className="my-2 text-center">
+              Landing page with animated hero.
+            </aside>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row">
+        <div className="flex flex-col lg:flex-row items-center">
           <div className="mx-auto w-full py-2 lg:w-1/2 lg:px-4">
             <Img
               fluid={props.data.ctfmRequestFlow.childImageSharp.fluid}
               alt="CallThemForMe request flow"
             />
+            <aside className="my-2 text-center">Call request flow.</aside>
+          </div>
+          <div className="mx-auto w-full py-2 lg:w-1/2 lg:px-4">
+            <h2>Challenges:</h2>
+            <ul className="list-disc">
+              <li>
+                Authentication, both for initial signup and for logging in
+                later, needed to be completely frictionless. Usernames and
+                passwords, while common nowadays, present opportunities for
+                friction and bounce that could be avoided.
+              </li>
+              <li>
+                The request flow needed to be as short and sweet for users as
+                possible. In order to be easier than picking up the phone, the
+                entire request flow can't involve more than a single form and a
+                couple of clicks.
+              </li>
+              <li>
+                Despite an emphasis on simplicity, a communication avenue must
+                still exist if more information is needed to complete a call
+                request.
+              </li>
+            </ul>
+            <h2>Solutions:</h2>
+            <ul className="list-disc">
+              <li>
+                We used Auth0's passwordless authentication flow to eliminate
+                the need for usernames and passwords. Instead, the user enters a
+                phone number and Twilio sends a one-time signin code that's
+                submitted for login. On iOS and desktop Safari browsers, this
+                can be done without any typing.
+              </li>
+              <li>
+                After some user testing and iteration, we reduced the call
+                request form to one page with three fields and only two
+                clicks/taps to submit. Everything is required but clearly
+                labeled and visible.
+              </li>
+              <li>
+                Thanks to a phone-centric authentication method, every account
+                has a phone number that can be reached by call or text in case
+                additional info is needed. If the user provides an email
+                address, we can use that instead. This eliminates the need for
+                push notifications or returns to the dashboard to answer simple
+                questions.
+              </li>
+            </ul>
           </div>
         </div>
         <div className="flex flex-col lg:flex-row">
-          <div className="mx-auto w-full py-2 lg:w-1/2 lg:px-4">
+          <div className="mx-auto w-full py-2">
             <Img
               fluid={props.data.ctfmMobilePrototype.childImageSharp.fluid}
               alt="CallThemForMe mobile prototype"
             />
+            <aside className="my-2 text-center">
+              Mobile prototype screens.
+            </aside>
           </div>
         </div>
         <div className="flex flex-col lg:flex-row">
@@ -58,6 +111,7 @@ const CallThemForMePage = props => (
               fluid={props.data.ctfmLiveRequest.childImageSharp.fluid}
               alt="CallThemForMe live request view"
             />
+            <aside className="my-2 text-center">Live call request view.</aside>
           </div>
         </div>
         <div className="flex flex-col lg:flex-row">
@@ -66,6 +120,7 @@ const CallThemForMePage = props => (
               fluid={props.data.ctfmLiveNew.childImageSharp.fluid}
               alt="CallThemForMe live request form"
             />
+            <aside className="my-2 text-center">Live call request form.</aside>
           </div>
         </div>
       </article>
