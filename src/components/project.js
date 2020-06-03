@@ -4,13 +4,12 @@ import { Link } from "gatsby"
 import DarkModeToggle from "./dark-mode-toggle"
 import josh from "../images/josh.jpg"
 import Footer from "./footer"
-import "./layout.css"
 
 const ProjectLayout = ({ children }) => {
   return (
     <div className="relative overflow-hidden">
       <DarkModeToggle />
-      <Link href="/">
+      <Link to="/">
         <img
           src={josh}
           alt="Josh Barnett"

@@ -1,8 +1,6 @@
 import React from "react"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
 
-import "./toggle.css"
-
 const DarkModeToggle = () => (
   <ThemeToggler>
     {({ theme, toggleTheme }) => (
