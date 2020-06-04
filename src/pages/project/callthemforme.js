@@ -33,6 +33,7 @@ const CallThemForMePage = props => (
             <Img
               fluid={props.data.ctfmLiveLander.childImageSharp.fluid}
               alt="CallThemForMe landing page"
+              className="shadow-lg"
             />
             <aside className="my-2 text-center">
               Landing page with animated hero.
@@ -44,6 +45,7 @@ const CallThemForMePage = props => (
             <Img
               fluid={props.data.ctfmRequestFlow.childImageSharp.fluid}
               alt="CallThemForMe request flow"
+              className="shadow-lg"
             />
             <aside className="my-2 text-center">Call request flow.</aside>
           </div>
@@ -99,6 +101,7 @@ const CallThemForMePage = props => (
             <Img
               fluid={props.data.ctfmMobilePrototype.childImageSharp.fluid}
               alt="CallThemForMe mobile prototype"
+              className="shadow-lg"
             />
             <aside className="my-2 text-center">
               Mobile prototype screens.
@@ -135,6 +138,7 @@ const CallThemForMePage = props => (
             <Img
               fluid={props.data.ctfmLiveRequest.childImageSharp.fluid}
               alt="CallThemForMe live request view"
+              className="shadow-lg"
             />
             <aside className="my-2 text-center">Live call request view.</aside>
           </div>
@@ -142,6 +146,7 @@ const CallThemForMePage = props => (
             <Img
               fluid={props.data.ctfmLiveNew.childImageSharp.fluid}
               alt="CallThemForMe live request form"
+              className="shadow-lg"
             />
             <aside className="my-2 text-center">Live call request form.</aside>
           </div>
