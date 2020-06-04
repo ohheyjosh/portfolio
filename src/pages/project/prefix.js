@@ -32,6 +32,7 @@ const PrefixPage = props => (
             <Img
               fluid={props.data.prefixBranding.childImageSharp.fluid}
               alt="_prefix branding"
+              className="shadow-lg"
             />
             <aside className="my-2 text-center">_prefix branding.</aside>
           </div>
@@ -41,6 +42,7 @@ const PrefixPage = props => (
             <Img
               fluid={props.data.prefixLander.childImageSharp.fluid}
               alt="_prefix beta lander"
+              className="shadow-lg"
             />
             <aside className="my-2 text-center">Beta landing page.</aside>
           </div>
