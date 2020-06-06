@@ -8,7 +8,7 @@ import skulabsLogo from "../images/project/skulabs/skulabs-logo.svg"
 const ProjectList = () => (
   <div
     id="projectList"
-    className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8"
+    className="max-w-screen-xl mx-auto sm:mb-12 lg:mb-24 py-12 px-4 sm:px-6 lg:py-16 lg:px-8"
   >
     <h2 className="mx-auto text-center text-3xl leading-9 font-extrabold sm:text-4xl sm:leading-10">
       Some of my recent projects:
