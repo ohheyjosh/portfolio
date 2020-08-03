@@ -35,10 +35,9 @@ module.exports = {
     // `gatsby-plugin-offline`,
     `gatsby-plugin-postcss`,
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
-        fonts: [`inter\:400,700`],
-        display: `swap`,
+        fonts: [{ family: `Inter`, subsets: [`latin`] }],
       },
     },
     "gatsby-plugin-dark-mode",
