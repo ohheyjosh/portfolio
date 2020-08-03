@@ -34,11 +34,24 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
     `gatsby-plugin-postcss`,
+    // {
+    //   resolve: `gatsby-plugin-google-fonts`,
+    //   options: {
+    //     fonts: [`inter\:400,700`],
+    //     display: `swap`,
+    //   },
+    // },
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: `gatsby-plugin-webfonts`,
       options: {
-        fonts: [`inter\:400,700`],
-        display: `swap`,
+        fonts: {
+          google: [
+            {
+              family: "Inter",
+              variants: ["400", "700"],
+            },
+          ],
+        },
       },
     },
     "gatsby-plugin-dark-mode",
